@@ -67,6 +67,11 @@ return {
     ["<leader>mp"] = { "<cmd>MarkdownPreview<cr>", desc = "MarkdownPreview toggle or stop" },
     ["<C-p>"] = { "<cmd>MarkdownPreviewToggle<cr>", desc = "MarkdownPreviewToggle" },
 
+    -- ZenMode
+
+    ["<M-9>"] = { ":ZenMode<cr>", desc = "ZenMode" },
+    ["<leader>mz"] = { ":ZenMode<cr>", desc = "ZenMode" },
+    --
     -- 以前不好用的配置, 当前版本astronvim 自带了dap, 因此以下配置无效, 仅作为快捷键备注保留
     -- ["<leader>rc"] = { ":copen 7|AsyncRun ", desc = "Async run cpp" },
 

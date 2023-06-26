@@ -176,6 +176,16 @@ return {
     lazy = false,
     requires = "skywind3000/asynctasks.vim",
   },
+  -- Lua
+  {
+    "folke/zen-mode.nvim",
+    lazy = false,
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    },
+  },
 
   -- install without yarn or npm
   -- install without yarn or npm
